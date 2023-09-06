@@ -42,16 +42,15 @@ Our steps encompassed:
 #### Results
 
 
-+---------------------+--------------------+-------------+-------------+---------------------+--------------------+
-|      Classifier     |      Accuracy      | Sensitivity | Specificity | Precision (Class 1) | F1-score (Class 1) |
-+---------------------+--------------------+-------------+-------------+---------------------+--------------------+
-| Logistic Regression | 0.7388855310239905 |     0.92    |     0.41    |         0.74        |        0.82        |
-|    Random Forest    | 0.7419719578701587 |     0.91    |     0.44    |         0.75        |        0.82        |
-|  Gradient Boosting  | 0.7423396632278555 |     0.91    |     0.44    |         0.75        |        0.82        |
-|    Decision Tree    | 0.7415123261730375 |     0.91    |     0.43    |         0.75        |        0.82        |
-| K-Nearest Neighbors | 0.7033697897874434 |     0.84    |     0.45    |         0.74        |        0.79        |
-|   Stacked Ensemble  | 0.7421810902923487 |     0.90    |     0.44    |         0.75        |        0.82        |
-+---------------------+--------------------+-------------+-------------+---------------------+--------------------+
+| Classifier            | Accuracy            | Sensitivity | Specificity | Precision (Class 1) | F1-score (Class 1) |
+|-----------------------|---------------------|-------------|-------------|---------------------|--------------------|
+| Logistic Regression   | 0.7388855310239905  | 0.92        | 0.41        | 0.74                | 0.82               |
+| Random Forest         | 0.7419719578701587  | 0.91        | 0.44        | 0.75                | 0.82               |
+| Gradient Boosting     | 0.7423396632278555  | 0.91        | 0.44        | 0.75                | 0.82               |
+| Decision Tree         | 0.7415123261730375  | 0.91        | 0.43        | 0.75                | 0.82               |
+| K-Nearest Neighbors   | 0.7033697897874434  | 0.84        | 0.45        | 0.74                | 0.79               |
+| Stacked Ensemble      | 0.7421810902923487  | 0.90        | 0.44        | 0.75                | 0.82               |
+
 
 In our analysis, we employed several machine learning methods to predict whether a subject is asleep (Class 1) or awake (Class 0). Here's a breakdown of the various results:
 
